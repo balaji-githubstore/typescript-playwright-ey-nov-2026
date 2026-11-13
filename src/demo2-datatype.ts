@@ -63,3 +63,12 @@ employeeDetail={name:"jack",age:22,role:"QA",mobileNumber:[988889,88888]};
 console.log(employeeDetail.name);
 console.log(employeeDetail.mobileNumber);
 console.log(employeeDetail.mobileNumber[1]);
+
+//union
+
+//tuple
+
+
+//any
+
+//unknown

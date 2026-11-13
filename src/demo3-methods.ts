@@ -20,7 +20,6 @@ function areaOfSquare(side:number)
     return side*side;
 }
 
-
 //while calling the methods - check for arguments and return type
 
 let output:number=areaOfCircle(10);

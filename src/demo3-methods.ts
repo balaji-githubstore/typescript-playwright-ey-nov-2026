@@ -15,9 +15,19 @@ function areaOfTriangle(height:number,base:number):number
 }
 
 //areaOfSquare
-function areaOfSquare(side:number)
+function areaOfSquare(side:number):number
 {
     return side*side;
+}
+
+function getMyName():string
+{
+    return "bala";
+}
+
+function close():void
+{
+    
 }
 
 //while calling the methods - check for arguments and return type
@@ -35,3 +45,7 @@ console.log(output);
 console.log(areaOfRectangle(100,100));
 
 console.log(areaOfTriangle(12,3));
+
+let a:string=getMyName()
+
+close();

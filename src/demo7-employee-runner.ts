@@ -19,6 +19,7 @@ emp2.empId=102;
 emp2.empName="Saul";
 emp2.empSalary=9000;
 
+
 emp1.displayEmployeeDetail();
 emp2.displayEmployeeDetail();
 emp3.displayEmployeeDetail();

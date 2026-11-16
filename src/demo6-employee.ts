@@ -19,6 +19,5 @@ export class Employee
     {
         return "Balaji Dinakaran";
     }
-
 }
 

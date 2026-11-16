@@ -18,5 +18,19 @@ for (let i = 0; i < studentMarks.length; i++) {
     console.log(studentMarks[i]);
 }
 
+console.log("------------------------------")
 
+for(let mark of studentMarks)
+{
+    console.log(mark);
+}
 
+console.log("------------------------------")
+
+let colors:string[]=["red","green","yellow"];
+
+//use foreach to print each item
+for(let color of colors)
+{
+    console.log(color);
+}

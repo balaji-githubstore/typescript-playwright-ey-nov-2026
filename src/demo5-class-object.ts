@@ -11,7 +11,6 @@ class Demo1
 }
 
 
-
 console.log(Demo1.aS);
 Demo1.aS=1000;
 console.log(Demo1.aS);

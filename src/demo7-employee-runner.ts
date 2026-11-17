@@ -25,4 +25,7 @@ emp2.displayEmployeeDetail();
 emp3.displayEmployeeDetail();
 
 
+let emp4:Employee=Employee.getEmployeeInstance();
+emp4.displayEmployeeDetail();
+
 

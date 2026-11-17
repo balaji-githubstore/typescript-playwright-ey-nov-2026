@@ -97,3 +97,7 @@ console.log(x.toUpperCase());
 if (typeof z === "string") {
     console.log(z.toUpperCase());
 }
+
+
+const x1:number=10;
+

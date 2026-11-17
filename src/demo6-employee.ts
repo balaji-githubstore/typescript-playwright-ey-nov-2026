@@ -19,5 +19,11 @@ export class Employee
     {
         return "Balaji Dinakaran";
     }
+
+    public static getEmployeeInstance():Employee
+    {
+        const emp:Employee=new Employee();
+        return emp;
+    }
 }
 

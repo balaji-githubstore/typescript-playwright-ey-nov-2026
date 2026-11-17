@@ -15,11 +15,12 @@ let actualTitle:string=await page.title();
 console.log(actualTitle);
 
 //get the url and print it 
-
+let actualUrl:string=page.url();
+console.log(actualUrl);
 
 //get the page source and print it
-
-
+let actualPageSource:string=await page.content();
+console.log(actualPageSource);
 
 await page.waitForTimeout(5000);
 await browser.close();

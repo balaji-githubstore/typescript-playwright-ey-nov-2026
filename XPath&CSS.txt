@@ -1,0 +1,18 @@
+XPath - XML Path Language
+
+Absolute XPath (not recommended) - /html/body/div[1]/div/div/section[1]/div/div/div[2]/div/form/fieldset/div[1]/div/input
+
+Relative XPath (recommended) 
+//tagname[@attribute='']
+//tagname[text()='']
+
+Example: verify - ctrl+f in chrome
+//input[@id='Form_getForm_FullName']
+//input[@id='Form_getForm_Email']
+//input[@id-'Form_getForm_action_submitForm']
+
+//button[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']
+
+
+//button[text()='Allow all']
+//select[@id='Form_getForm_Country']

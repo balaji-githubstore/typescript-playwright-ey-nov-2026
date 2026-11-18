@@ -11,6 +11,22 @@ Contains
 //tagname[contains(@attribute,'')]
 //tagname[contains(text(),'')]
 
+Grouping of XPath - starts at 1
+(//input[@type='file'])[2]
+
+For upload 
+//input[@type='file']
+
+
+And - or 
+//input[@type='file' and @id='edit-field-audited-balance-sheet-for-0-upload']
+
+
+
+
+
+
+
 Example: verify - ctrl+f in chrome
 //input[@id='Form_getForm_FullName']
 //input[@id='Form_getForm_Email']
@@ -23,5 +39,8 @@ Example: verify - ctrl+f in chrome
 
 //a[text()='OrangeHRM, Inc']
 //a[contains(text(),'OrangeHRM')]
-
 //a[contains(@href,'orangehrm.com')]
+
+
+//iframe[@name='vehicle-form']
+//iframe[contains(@src,'registration-form.html')]

@@ -6,13 +6,22 @@ Relative XPath (recommended)
 //tagname[@attribute='']
 //tagname[text()='']
 
+
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
 Example: verify - ctrl+f in chrome
 //input[@id='Form_getForm_FullName']
 //input[@id='Form_getForm_Email']
 //input[@id-'Form_getForm_action_submitForm']
-
 //button[@id='CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll']
-
-
 //button[text()='Allow all']
 //select[@id='Form_getForm_Country']
+//div[contains(text(),'not able to connect')]
+
+
+//a[text()='OrangeHRM, Inc']
+//a[contains(text(),'OrangeHRM')]
+
+//a[contains(@href,'orangehrm.com')]

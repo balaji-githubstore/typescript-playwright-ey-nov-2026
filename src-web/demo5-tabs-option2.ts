@@ -6,6 +6,7 @@ const context = await browser.newContext();
 const page = await context.newPage();
 await page.goto("https://opensource-demo.orangehrmlive.com/");
 
+
 const [page2,] = await Promise.all([page.waitForEvent("popup"),
 page.locator("xpath=//a[contains(text(),'OrangeHRM')]").click()])
 

@@ -4,7 +4,8 @@ import { chromium,firefox } from "playwright";
 const browser= await chromium.launch({channel:"chrome",headless:false});
 const context= await browser.newContext();
 const page=await context.newPage();
-await page.goto("https://opensource-demo.orangehrmlive.com/");
+await page.goto("https://opensource-demo.orangehrmlive.com/",{waitUntil:"networkidle"});
+
 
 //run pop event without await to track for new page
 const popupPromise=page.waitForEvent("popup");
@@ -12,6 +13,7 @@ const popupPromise=page.waitForEvent("popup");
 await page.locator("xpath=//a[contains(text(),'OrangeHRM')]").click();
 //await and get the new page (new tab) from the method running in the background
 const page2=await popupPromise
+await page2.waitForLoadState("networkidle");
 
 
 await page2.locator("xpath=//button[text()='Book a Free Demo']").click();

@@ -11,6 +11,9 @@ Contains
 //tagname[contains(@attribute,'')]
 //tagname[contains(text(),'')]
 
+Ignore white space 
+//button[normalize-space()='Login']
+
 Grouping of XPath - starts at 1
 (//input[@type='file'])[2]
 
@@ -22,9 +25,15 @@ And - or
 //input[@type='file' and @id='edit-field-audited-balance-sheet-for-0-upload']
 
 
+parent-child
 
 
+ancestor-descendant 
 
+following - preceding 
+
+
+following-sibling 
 
 
 Example: verify - ctrl+f in chrome
@@ -44,3 +53,43 @@ Example: verify - ctrl+f in chrome
 
 //iframe[@name='vehicle-form']
 //iframe[contains(@src,'registration-form.html')]
+
+
+
+
+------------------------------------
+CSS selector https://www.w3schools.com/cssref/css_selectors.php
+#id 
+.classname
+tagname[attribute='']
+[attribute='']
+
+
+
+Example:
+#authUser
+select[name='languageChoice']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

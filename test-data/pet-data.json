@@ -1,0 +1,38 @@
+{
+    "addPet": {
+        "id": 98889,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie-9888",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    "updatePet": {
+        "id": 9888,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie-9888-updated",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    }
+}

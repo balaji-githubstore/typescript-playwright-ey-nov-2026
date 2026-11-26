@@ -11,3 +11,8 @@ console.log(responseBody);
 // get first item and print it
 console.log(responseBody[0]);
 console.log(responseBody[0]["status"]);
+
+for(let pet of responseBody)
+{
+    assert.deepStrictEqual(pet["status"],"sold");
+}

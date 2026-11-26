@@ -12,10 +12,13 @@ Contains
 //tagname[contains(text(),'')]
 
 Ignore white space 
+//tagname[normalize-space()='']
+//tagname[contains(normalize-space(),'')]
 //button[normalize-space()='Login']
 
 Grouping of XPath - starts at 1
 (//input[@type='file'])[2]
+(//span[normalize-space()='Visit Our Support Center'])[2]
 
 For upload 
 //input[@type='file']

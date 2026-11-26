@@ -1,4 +1,4 @@
-import { Employee } from "./demo6-employee.ts"
+import { Employee } from "./demo6-employee.js"
 
 
 let authName:string=Employee.getAuthorName();

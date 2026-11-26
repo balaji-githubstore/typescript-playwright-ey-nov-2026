@@ -1,4 +1,4 @@
-import { Student } from "./demo8-student.ts";
+import { Student } from "./demo8-student.js";
 
 Student.schoolName="Global";
 Student.schoolLocation="Chennai";
